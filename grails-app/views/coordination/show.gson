@@ -1,0 +1,7 @@
+import ni.com.nami.Coordination
+
+model {
+    Coordination coordination
+}
+
+json tmpl.coordination(coordination)

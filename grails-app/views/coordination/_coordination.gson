@@ -1,0 +1,11 @@
+import ni.com.nami.Coordination
+
+model {
+    Coordination coordination
+}
+
+json {
+    name coordination.name
+    copyFee coordination.copyFee
+    employees tmpl.'/shared/employee'(coordination.employees)
+}

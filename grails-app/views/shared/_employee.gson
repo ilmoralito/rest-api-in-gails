@@ -1,0 +1,9 @@
+import ni.com.nami.Employee
+
+model {
+    Employee employee
+}
+
+json {
+    fullName employee.fullName
+}
